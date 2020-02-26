@@ -1,0 +1,17 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/opt/arduino-1.8.11/hardware/arduino/avr/cores/arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/alejandrov/.arduino15/packages/SparkFun/hardware/avr/1.1.13/variants/promicro"
+  },
+  {
+    "Sourcefile": "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/build/sketch/Seguidor_micro.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

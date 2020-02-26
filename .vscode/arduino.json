@@ -1,0 +1,7 @@
+{
+    "board": "SparkFun:avr:promicro",
+    "sketch": "Seguidor_micro.ino",
+    "output": "build",
+    "configuration": "cpu=16MHzatmega32U4",
+    "port": "/dev/ttyACM0"
+}

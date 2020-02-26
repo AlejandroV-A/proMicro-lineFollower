@@ -1,0 +1,31 @@
+{
+  "arduino.additionalUrls": "https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json,https://dl.espressif.com/dl/package_esp32_index.json,http://arduino.esp8266.com/stable/package_esp8266com_index.json",
+  "cSpell.words": [
+    "ADATE",
+    "ADHSM",
+    "ADIE",
+    "ADMUX",
+    "ADPS",
+    "ADSC",
+    "Cntr",
+    "DIDR",
+    "Pntr",
+    "RXLED",
+    "SCLK",
+    "Stdr",
+    "a",
+    "calib",
+    "cycl",
+    "ddwmr",
+    "derror",
+    "dsms",
+    "fajardo",
+    "ierror",
+    "mosi",
+    "palomares",
+    "println",
+    "tccr",
+    "vect",
+    "vehiculo"
+  ]
+}
