@@ -1,6 +1,6 @@
-# 1 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 1 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
 // Machine God [G4]
-# 3 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 2
+# 3 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 2
 
 // TODO tunning the gains, and setting translational speed
 // with speed ups and downs. Do not start any motor until a line is detected.
@@ -18,300 +18,300 @@ void loop(void) {
   pidPool();
   if (error == 0) {
     ((1 == 0) ? ((*( (volatile uint8_t *)( 
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    port_to_output_PGM + (( 
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_port_PGM + (1)
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ) ) &= ~( 
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_bit_mask_PGM + (1)
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))) : ((*( (volatile uint8_t *)( 
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    port_to_output_PGM + (( 
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_port_PGM + (1)
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ) ) |= ( 
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_bit_mask_PGM + (1)
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 19 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 19 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))));
     ((1 == 0) ? ((*( (volatile uint8_t *)( 
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    port_to_output_PGM + (( 
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_port_PGM + (3)
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ) ) &= ~( 
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_bit_mask_PGM + (3)
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))) : ((*( (volatile uint8_t *)( 
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    port_to_output_PGM + (( 
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_port_PGM + (3)
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ) ) |= ( 
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_bit_mask_PGM + (3)
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 20 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 20 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))));
   } else if (error < 0) {
     ((1 == 0) ? ((*( (volatile uint8_t *)( 
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    port_to_output_PGM + (( 
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_port_PGM + (1)
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ) ) &= ~( 
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_bit_mask_PGM + (1)
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))) : ((*( (volatile uint8_t *)( 
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    port_to_output_PGM + (( 
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_port_PGM + (1)
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ) ) |= ( 
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_bit_mask_PGM + (1)
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 22 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 22 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))));
     ((0 == 0) ? ((*( (volatile uint8_t *)( 
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    port_to_output_PGM + (( 
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_port_PGM + (3)
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ) ) &= ~( 
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_bit_mask_PGM + (3)
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))) : ((*( (volatile uint8_t *)( 
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    port_to_output_PGM + (( 
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_port_PGM + (3)
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ) ) |= ( 
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_bit_mask_PGM + (3)
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 23 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 23 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))));
   } else {
     ((0 == 0) ? ((*( (volatile uint8_t *)( 
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    port_to_output_PGM + (( 
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_port_PGM + (1)
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ) ) &= ~( 
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_bit_mask_PGM + (1)
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))) : ((*( (volatile uint8_t *)( 
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    port_to_output_PGM + (( 
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_port_PGM + (1)
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ) ) |= ( 
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_bit_mask_PGM + (1)
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 25 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 25 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))));
     ((1 == 0) ? ((*( (volatile uint8_t *)( 
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    port_to_output_PGM + (( 
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_port_PGM + (3)
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ) ) &= ~( 
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_bit_mask_PGM + (3)
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))) : ((*( (volatile uint8_t *)( 
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    port_to_output_PGM + (( 
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_port_PGM + (3)
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ) ) |= ( 
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    digital_pin_to_bit_mask_PGM + (3)
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino" 3
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino" 3
    )); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; })) 
-# 26 "/home/alejandrov/Dropbox/Arduino/Seguidor_micro/Seguidor_micro.ino"
+# 26 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
    ))));
   }
 }
@@ -338,35 +338,3 @@ void loop(void) {
  f4  *A3             21  [Sens]
            RXLED      17  [RXLED]
 //*/
-/*
-I'm a Ph.D. candidate that has been interested in embedded systems for more than
-10 years.
-
-My first approach to embedded system development was as a high school student,
-where I learned to program Microchip PIC MCUs in assembler language, at this
-time starting to participate in robotics contests. In my engineering studies, I
-also learned to program AVR MCUs in assembler language, to then advance to
-program both Microchip's platforms in C language, continuing to participate and
-win in international robotics contest.
-
-As a graduate student, I've been working with embedded systems to tests the
-control laws that I propose. The embedded systems that I use are unmanned
-vehicles, mainly quadcopters. In this works, I also started using NXP LPC MCUs
-in C language.
-
-Nowadays, I'm also lecturing the "embedded systems" subject at UNITEC. In this
-university, as the students already own some hardware, particularly Arduino, I
-had to fit the program to use that hardware. Arduino is a platform that I had
-never used before, but transporting the knowledge from other platforms I
-understood its nuances swiftly.
-
-This background shows that the embedded systems my main technological interest
-and where I would like to perform for my career, using my high level of
-technical understanding as well as the PhD-level abilities in propose, adapt,
-and use state-of-the-art technology.
-
-This background makes the embedded systems my main technological interest and
-where I would like to perform for my career, using my high level of technical
-understanding as well as the many abilities in proposing, adapting, and using
-state-of-the-art technology.
-*/

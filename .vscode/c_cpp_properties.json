@@ -11,7 +11,8 @@
                 "/opt/arduino-1.8.11/hardware/arduino/avr/**",
                 "/opt/arduino-1.8.11/hardware/arduino/avr/libraries/EEPROM/src",
                 "/home/alejandrov/.arduino15/packages/SparkFun/hardware/avr/1.1.13/**",
-                "/home/alejandrov/.arduino15/packages/SparkFun/hardware/avr/1.1.13/variants/promicro/**"
+                "/home/alejandrov/.arduino15/packages/SparkFun/hardware/avr/1.1.13/variants/promicro/**",
+                "C:\\Users\\xxxva\\AppData\\Local\\Arduino15\\packages\\SparkFun\\hardware\\avr\\1.1.13\\**"
             ],
             "forcedInclude": [],
             "intelliSenseMode": "gcc-x64",

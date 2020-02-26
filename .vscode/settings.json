@@ -27,5 +27,6 @@
     "tccr",
     "vect",
     "vehiculo"
-  ]
+  ],
+    "arduino.path": "C:/Program Files (x86)/Arduino"
 }
