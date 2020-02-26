@@ -49,35 +49,3 @@ void loop(void) {
  f4  *A3             21  [Sens]
            RXLED      17  [RXLED]
 //*/
-/*
-I'm a Ph.D. candidate that has been interested in embedded systems for more than
-10 years.
-
-My first approach to embedded system development was as a high school student,
-where I learned to program Microchip PIC MCUs in assembler language, at this
-time starting to participate in robotics contests. In my engineering studies, I
-also learned to program AVR MCUs in assembler language, to then advance to
-program both Microchip's platforms in C language, continuing to participate and
-win in international robotics contest.
-
-As a graduate student, I've been working with embedded systems to tests the
-control laws that I propose. The embedded systems that I use are unmanned
-vehicles, mainly quadcopters. In this works, I also started using NXP LPC MCUs
-in C language.
-
-Nowadays, I'm also lecturing the "embedded systems" subject at UNITEC. In this
-university, as the students already own some hardware, particularly Arduino, I
-had to fit the program to use that hardware. Arduino is a platform that I had
-never used before, but transporting the knowledge from other platforms I
-understood its nuances swiftly.
-
-This background shows that the embedded systems my main technological interest
-and where I would like to perform for my career, using my high level of
-technical understanding as well as the PhD-level abilities in propose, adapt,
-and use state-of-the-art technology.
-
-This background makes the embedded systems my main technological interest and
-where I would like to perform for my career, using my high level of technical
-understanding as well as the many abilities in proposing, adapting, and using
-state-of-the-art technology.
-*/
