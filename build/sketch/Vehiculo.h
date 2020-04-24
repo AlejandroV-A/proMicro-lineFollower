@@ -1,13 +1,11 @@
 #ifndef Vehiculo
 #define Vehiculo
 
-//#include <EEPROM.h>
-
 #define pGain (-20)    //(20.0)
 #define iGain (-0.03)  //(-0.05) //(-0.01) //(0.0) //
 #define dGain (-0.125) //(-0.1) //(-0.125) //(0.0) //
 
-#define vBase (100) //(50) //(120) //
+#define vBase (125) //(50) //(120) //
 
 #define maxW (255)
 #define maxV (255)
@@ -15,14 +13,14 @@
 // 16 = 104us => 9615.38Hz, always breaks real time boundaries, do not use
 // 32 = 208us => 4807.69Hz, max snsFilSz 1
 // 64 = 416us => 2403.84Hz, max snsFilSz 2
-#define preescalerSet128   // 832us per cycle, ie 1201.92Hz, max snsFilSz 8*
+#define preescalerSet128   // 832us per cycle, ie 1201.92Hz, max snsFilSz 6*
 #define RXLED 17           // Pin number with the RXLED
 #define calibMinDif (200)  // Min diff to re-calibrate
 #define maxSnsInLine (6)   // Max quantity of sensors on line allowed
 #define diffMaxCnt (32766) // max signed int value-1, max time to differentiate
 #define difStdrGn (2048)   // a gain to make noticeable the diff
 #define maxIntErr (-50 / iGain) // Critical value [32760]
-#define snsFilSz 8              // Size of the sensor filter
+#define snsFilSz 6              // Size of the sensor filter
 #define recalTrig 100           // Number of cycles to re-calibrate
 #define maxWidthColCh 4         // Maximum line width to enable color change
 #define minWidthColCh 1         // minimum line width to enable color change
@@ -55,12 +53,12 @@ uint8_t An[8] = {0};
 uint8_t enPin;
 int calib = 0;
 byte digitalSens = 0;
-int error = 0;
-int derror = 0;
-int ierror = 0;
+int error = 0, derror = 0, ierror = 0;
+int error_max = 0, derror_max = 0, ierror_max = 0;
 int errorOld = 0;
 int diffCntr = 1;
 bool linecolor = 0; // 0 - Black line, 1 - White line
+bool startd = 0;
 int memError = 0;
 
 // Motor direction pins
@@ -287,6 +285,8 @@ int genError(void) {
   firstHigh = 8;
   lineWidth = getLineWidth(firstHigh, digitalSens, linecolor);
   if ((firstHigh < 8) && (lineWidth < maxSnsInLine)) {
+    if (!startd)
+      startd = 1;
     errorOld = error;
     error = 2 * firstHigh - 7 + lineWidth;
     // Generating memory state
@@ -617,7 +617,25 @@ void pidPool() {
   }
   if (adcDone) {
     genError(); // error, derror, ierror
-    setSpeed(pGain * error + dGain * derror + iGain * ierror, vBase);
+    if(startd){
+      if (abs(error) > error_max) {
+        error_max = abs(error);
+      }
+      if (abs(derror) > derror_max) {
+        derror_max = abs(derror);
+      } else if (derror_max > 0)
+        derror_max--;
+      if (abs(ierror) > ierror_max) {
+        ierror_max = abs(ierror);
+      } else if (ierror_max > 0)
+        ierror_max--;
+      setSpeed(pGain * error + dGain * derror + iGain * ierror,
+               vBase - derror_max * 0.0025 - ierror_max * 0.001);
+    }
+    else{
+      setSpeed(0, 0);
+    }
+
   }
 }
 
