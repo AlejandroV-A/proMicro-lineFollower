@@ -1,11 +1,11 @@
 #ifndef Vehiculo
 #define Vehiculo
 
-#define pGain (-20)    //(20.0)
+#define pGain (-25)    //(20.0)
 #define iGain (-0.03)  //(-0.05) //(-0.01) //(0.0) //
 #define dGain (-0.125) //(-0.1) //(-0.125) //(0.0) //
 
-#define vBase (125) //(50) //(120) //
+#define vBase (150) //(50) //(120) //
 
 #define maxW (255)
 #define maxV (255)
