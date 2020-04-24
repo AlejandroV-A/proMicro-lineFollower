@@ -1,2 +1,2 @@
-d:\Dropbox\Projects\Software\Arduino\Seguidor_micro\build\core\hooks.c.o: \
- C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\hooks.c
+/home/alejandrov/Dropbox/GitHub/proMicro-lineFollower/build/core/hooks.c.o: \
+ /opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/hooks.c

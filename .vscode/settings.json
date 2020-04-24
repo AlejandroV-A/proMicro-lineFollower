@@ -1,5 +1,4 @@
 {
-  "arduino.additionalUrls": "https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json",
   "cSpell.words": [
     "ADATE",
     "ADHSM",
@@ -27,6 +26,5 @@
     "tccr",
     "vect",
     "vehiculo"
-  ],
-    "arduino.path": "C:/Program Files (x86)/Arduino"
+  ]
 }

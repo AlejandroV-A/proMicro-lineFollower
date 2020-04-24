@@ -645,11 +645,3 @@ AVR // Analog // Com // PWM // Arduino
  f5   A2             20
  f4   A3             21
 //*/
-
-/* Project engineer
-  Emanuel Palomares
-  cc cintia hernandez
-  ing francisco ramires y sandra Fajardo
-  rolando.lopez@mx.abb.com 5554382148
-*/
-//"compilerPath": "/usr/bin/gcc",

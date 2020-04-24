@@ -1,16 +1,16 @@
 #include <Arduino.h>
-#line 1 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
+#line 1 "/home/alejandrov/Dropbox/GitHub/proMicro-lineFollower/Seguidor_micro.ino"
 // Machine God [G4]
 #include "Vehiculo.h"
 
 // TODO tunning the gains, and setting translational speed
 // with speed ups and downs. Do not start any motor until a line is detected.
 
-#line 7 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
+#line 7 "/home/alejandrov/Dropbox/GitHub/proMicro-lineFollower/Seguidor_micro.ino"
 void setup(void);
-#line 16 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
+#line 16 "/home/alejandrov/Dropbox/GitHub/proMicro-lineFollower/Seguidor_micro.ino"
 void loop(void);
-#line 7 "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\Seguidor_micro.ino"
+#line 7 "/home/alejandrov/Dropbox/GitHub/proMicro-lineFollower/Seguidor_micro.ino"
 void setup(void) {
   setupADC(2, A6, A8, A9, A10, A0, A1, A2, A3);
   ddwmrInit(0, 15, 14, 7, 16, 5, 6);

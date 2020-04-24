@@ -2,15 +2,15 @@
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+    "Includepath": "/opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino"
   },
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "C:\\Users\\xxxva\\AppData\\Local\\Arduino15\\packages\\SparkFun\\hardware\\avr\\1.1.13\\variants\\promicro"
+    "Includepath": "/home/alejandrov/.arduino15/packages/SparkFun/hardware/avr/1.1.13/variants/promicro"
   },
   {
-    "Sourcefile": "d:\\Dropbox\\Projects\\Software\\Arduino\\Seguidor_micro\\build\\sketch\\Seguidor_micro.ino.cpp",
+    "Sourcefile": "/home/alejandrov/Dropbox/GitHub/proMicro-lineFollower/build/sketch/Seguidor_micro.ino.cpp",
     "Include": "",
     "Includepath": null
   }

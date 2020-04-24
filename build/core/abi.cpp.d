@@ -1,2 +1,2 @@
-d:\Dropbox\Projects\Software\Arduino\Seguidor_micro\build\core\abi.cpp.o: \
- C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\abi.cpp
+/home/alejandrov/Dropbox/GitHub/proMicro-lineFollower/build/core/abi.cpp.o: \
+ /opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/abi.cpp
